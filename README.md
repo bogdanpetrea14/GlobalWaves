@@ -1,6 +1,3 @@
-## Petrea Bogdan-Vasile ##
-### 321 CA ###
-
 
 ---
 
@@ -12,12 +9,6 @@ which is implemented by Artist class. Also, we add an Observer class,
 implemented by the User class, so that we can implement the notification part of the
 application. (Best for keeping an evidence for subscribers and send them notifications when needed, for example, when we add a new album or a new event for an artist)
 3. Command Pattern -> used in pages package by implementing an interface, Command, which is implemented by BackCommand, ForwardCommand and ChangePage classes, that are used for those commands in the app. Also, we created a new class, Navigation History, so that we keep an evidence of the history navigation (the pages that an user have been on before). (Best for keeping a history for the page navigation, so that we can "undo" the previous page, as much as we want)
-
----
-
-Folosit schelet etapa 3
-
----
 
 Continuing developing an app similar to spotify, I created new classes and methods to implements new functionalities, such as subscribe, getNotifications, or wrapped. Those methods are just added to the existing classes, only a few new ones being added. I will talk about where those methods could be found and how they work.
 
